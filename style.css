@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Mono:wght@300&display=swap');
+@media screen {
+    body{
+        margin: 0px;
+        font-family: Roboto Mono;
+        font-size: 1.1rem;
+    }
+    header{
+        background-image: url(https://etosibir.ru/wp-content/uploads/2017/05/FWcvwflMW641.jpg);
+        background-size: 100% 100%;
+    }
+    .header__photo{
+        position: relative;
+        top: 60px;
+    }
+    .name{
+        color: darkblue;
+    }
+    .job{
+        color: blueviolet;
+    }
+    .paragraph{
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+    .smth_like_portfolio li{
+        list-style: "\27A1";
+        list-style-position: inside;
+    }
+    .smth_like_portfolio a{
+        text-decoration: none;
+    }
+}
+@media print {
+    body{
+        margin: 0px;
+        font-family: Roboto Mono;
+        font-size: 0.5rem;
+    }
+    header{
+        height: 50px;
+    }
+    .header__photo{
+        width: 0px;
+    }
+    .info{
+        display: flex;
+    }
+    .paragraph{
+        margin-left: 20px;
+        font-size: 0.7rem;
+    }
+    .education{
+        margin-top: -200px;
+    }
+    footer{
+
+    }
+}
